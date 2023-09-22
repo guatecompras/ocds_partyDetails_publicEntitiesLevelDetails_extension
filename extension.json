@@ -1,0 +1,17 @@
+{
+  "name": {
+    "en": "Party Details Public Entities Level Detailss"
+  },
+  "description": {
+    "en": "Party Details Public Entities Level Details"
+  },
+  "documentationUrl": {
+    "en": "https://gitlab.com/rodrigovillalba/ocds_partydetails_publicentitiesleveldetails_extension"
+  },
+  "compatibility": [
+    "1.1"
+  ],
+  "schemas": [
+    "release-schema.json"
+  ]
+}

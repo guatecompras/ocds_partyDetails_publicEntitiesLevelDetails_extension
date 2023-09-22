@@ -1,0 +1,79 @@
+{
+  "definitions": {
+    "EntityClassificationDetails": {
+      "properties": {
+        "details": {
+          "id": {
+            "title": "ID",
+            "description": "An identifier for the entity classification.",
+            "type": [
+              "string",
+              "number",
+              "null"
+            ]
+          },
+          "description": {
+            "title": "Description",
+            "description": "A short free text description for the entity classification.",
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "Organization": {
+      "properties": {
+        "details": {
+          "properties": {
+            "level": {
+              "title": "Level",
+              "description": "Organizational classification level 3 according to the Guatemala Guatecompras procurement system.",
+              "type": [
+                "object",
+                "null"
+              ],
+              "items": {
+                "$ref": "#/definitions/EntityClassificationDetails"
+              }
+            },
+            "legalEntityTypeDetail": {
+              "title": "Legal Entity Type Detail",
+              "description": "General organizational classification according to the Guatemala Guatecompras procurement system.",
+              "type": [
+                "object",
+                "null"
+              ],
+              "items": {
+                "$ref": "#/definitions/EntityClassificationDetails"
+              }
+            },
+            "entityType": {
+              "title": "Entity Type",
+              "description": "Organizational classification level 2 according to the Guatemala Guatecompras procurement system.",
+              "type": [
+                "object",
+                "null"
+              ],
+              "items": {
+                "$ref": "#/definitions/EntityClassificationDetails"
+              }
+            },
+            "type": {
+              "title": "Type",
+              "description": "Organizational classification level 1 according to the Guatemala Guatecompras procurement system.",
+              "type": [
+                "object",
+                "null"
+              ],
+              "items": {
+                "$ref": "#/definitions/EntityClassificationDetails"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
