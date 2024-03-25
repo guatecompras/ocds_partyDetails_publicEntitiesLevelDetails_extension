@@ -1,12 +1,12 @@
 {
   "name": {
-    "en": "Party Details Public Entities Level Detailss"
+    "en": "Party Details Public Entities Level Details"
   },
   "description": {
     "en": "Party Details Public Entities Level Details"
   },
   "documentationUrl": {
-    "en": "https://gitlab.com/rodrigovillalba/ocds_partydetails_publicentitiesleveldetails_extension"
+    "en": "https://github.com/guatecompras/ocds_partyDetails_publicEntitiesLevelDetails_extension"
   },
   "compatibility": [
     "1.1"
