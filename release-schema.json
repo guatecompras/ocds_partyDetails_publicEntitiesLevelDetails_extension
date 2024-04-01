@@ -2,24 +2,22 @@
   "definitions": {
     "EntityClassificationDetails": {
       "properties": {
-        "details": {
-          "id": {
-            "title": "ID",
-            "description": "An identifier for the entity classification.",
-            "type": [
-              "string",
-              "number",
-              "null"
-            ]
-          },
-          "description": {
-            "title": "Description",
-            "description": "A short free text description for the entity classification.",
-            "type": [
-              "string",
-              "null"
-            ]
-          }
+        "id": {
+          "title": "ID",
+          "description": "An identifier for the entity classification.",
+          "type": [
+            "string",
+            "number",
+            "null"
+          ]
+        },
+        "description": {
+          "title": "Description",
+          "description": "A short free text description for the entity classification.",
+          "type": [
+            "string",
+            "null"
+          ]
         }
       }
     },
